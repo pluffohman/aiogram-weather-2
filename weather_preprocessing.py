@@ -4,10 +4,10 @@ import json
 import datetime
 from urllib.parse import quote_plus
 
-api_weather = "77ef480b640d917eb7d4f19215b30430"
+api_weather = "weather-api"
 
 def process_address(location):
-    api_yandex = "a783a53e-16a2-4164-ad19-20832f60c1f1"
+    api_yandex = "yandex-geo-api"
     encoded_location = quote_plus(location)
 
     geocode_url = f"https://geocode-maps.yandex.ru/1.x/?apikey={api_yandex}&geocode={encoded_location}&format=json"
