@@ -1,6 +1,6 @@
 import requests
 from urllib.parse import quote_plus
-api = "a783a53e-16a2-4164-ad19-20832f60c1f1"
+api = "api"
 location = "Москва"
 encoded_location = quote_plus(location)
 
