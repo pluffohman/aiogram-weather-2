@@ -5,7 +5,7 @@ from aiogram.filters.command import Command
 import weather_preprocessing
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="7353852762:AAGUVVvwLhW_h_OUPuHWz2kj0nVAiisgUvQ")
+bot = Bot(token="token")
 dp = Dispatcher()
 
 
